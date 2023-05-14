@@ -1,0 +1,311 @@
+/*
+ * Theme Name: SVGB_V2
+ * Description: Cau lac bo danh nhan Viet Duc Sai Gon
+ * Theme URI: 
+ * Version: 1.0
+ * Author: KhaPham
+ * Author URI: 
+ */
+
+#nav-header {
+    height: 10% !important;
+    background-color: #FF0000 !important;
+    color: aliceblue !important;
+    padding: 0px 300px !important;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+
+.logo-container {
+    height: 120px;
+    margin: 10px 0;
+}
+
+#logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo-footer-id {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav-link {
+    font-size: larger !important;
+    color: #ffffff !important;
+    margin: 0 10px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#body-container {
+    padding: 30px 300px;
+}
+
+.title {
+    color: #FF0000;
+}
+
+hr {
+    width: 150px;
+    border: 2px solid #8c8b8b;
+}
+
+p {
+    text-align: justify;
+    font-size: large;
+}
+
+.parner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: #FF0000;
+    padding: 50px 300px;
+}
+
+.txt-white {
+    color: #ffffff;
+    font-size: larger;
+    margin: 0;
+}
+
+.thumbnail {
+    max-width: 100%;
+}
+
+.post-content {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.post-infor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thumnail-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10%;
+    margin: 3%;
+}
+
+
+img .size-thumbnail {
+    width: 100%;
+}
+
+#facebook-icon-footer {
+    font-size: 3em; 
+    height: 100%; 
+}
+
+
+#logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.post-list {
+    margin: 1vh;
+}
+
+.thumnail-container img {
+    max-width: 50vw !important;
+}
+
+/*--------------------------------------------*/
+.body-login-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0;
+    height: 60vh;
+}
+
+.ip-gr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ip-gr {
+    margin: 2vh 0;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap
+}
+
+.ip-gr label {
+    margin-right: 1vw;
+    font-size: 1.5em;
+}
+
+.ip-gr input {
+    font-size: 1.5em;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+form button {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1500px) {
+    #body-container {
+        padding: 30px 200px;
+    }
+
+    #nav-header {
+        padding: 0px 200px !important;
+    }
+
+    footer {
+        padding: 50px 200px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #body-container {
+        padding: 30px 100px;
+    }
+
+    #nav-header {
+        padding: 0px 100px !important;
+    }
+
+    footer {
+        padding: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #body-container {
+        padding: 30px 50px;
+    }
+
+    #nav-header {
+        padding: 0px 50px !important;
+    }
+
+    footer {
+        padding: 50px 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #body-container {
+        padding: 30px;
+    }
+    
+    .nav-link {
+        margin: 0 !important;
+    }
+
+    #nav-header {
+        padding: 0px !important;
+    }
+
+    footer {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .txt-white {
+        font-size: x-small;
+        margin: 0;
+    }
+
+    #facebook-icon-footer {
+        font-size: 2em; 
+        height: 100%; 
+    }
+	
+	figure img {
+		width: 80vw !important;
+		height: auto !important
+	}
+
+    .body-login-container {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #nav-header {
+        padding: 0px 50px!important;
+    }
+
+    .nav-link {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    /* .ip-gr {
+        display: block;
+    } */
+}
+
+@media only screen and (max-width: 550px) {
+    .ip-gr label {
+        margin-right: 1vw;
+        font-size: 1em;
+    }
+
+    .ip-gr input {
+        font-size: 1em;
+        border-style: solid;
+        border-color: black;
+        padding: 5px;
+    }
+
+    form button {
+        font-size: 1em;
+    }
+
+    .body-login-container {
+        height: 70vh;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    #nav-header {
+        padding: 0px 10px!important;
+    }
+
+    #logo {
+        max-width: 70%;
+    }
+	
+	#logo-footer-id {
+		max-width: 100%;
+	}
+
+    #nav-header {
+        height: fit-content !important;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* 
+#banner {
+    padding: 0;
+} */
